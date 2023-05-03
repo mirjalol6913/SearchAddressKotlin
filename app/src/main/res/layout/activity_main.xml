@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주소 입력"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:hint="주소를 입력해주세요!"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="53dp"/>
+    <EditText
+        android:id="@+id/zonecode"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:hint="우편번호"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="53dp"/>
+
+
+
+</LinearLayout>
